@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Gilroy', 'Oswald', sans-serif;
+}
+
+.main {
+    flex-grow: 1;
+}

@@ -1,0 +1,77 @@
+.news {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding-top: 48px;
+    padding-right: 102px;
+    padding-bottom: 49px;
+    background-color: #76a713;
+
+    background: {
+        image: url('../../img/b-arrow.png');
+        size: auto;
+        repeat: no-repeat;
+        position: 406px 117px;
+    }
+
+    &__heading {
+        margin: 0;
+        margin-bottom: 24px;
+        text-transform: capitalize;
+
+        font: {
+            family: 'Oswald';
+            weight: 500;
+            size: 60px;
+        }
+
+        line-height: 89px;
+        color: #ffffff;
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+    }
+
+    &__input {
+        width: 370px;
+        margin-right: 48px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    &__input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__input:focus {
+        color: #ffffff;
+    }
+
+    &__link {
+        padding: 10px 12px 11px 13px;
+        border: none;
+        background-color: #ff6600;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    &__img {
+        position: absolute;
+        left: -63px;
+        top: -119px;
+    }
+}

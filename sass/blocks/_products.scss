@@ -1,0 +1,260 @@
+.products {
+    padding-top: 77px;
+    padding-bottom: 100px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+}
+
+.products__heading {
+    margin: 0;
+    margin-bottom: 42px;
+    font-family: 'Oswald';
+    font-size: 60px;
+    font-size: 60px;
+    line-height: 90px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #191d28;
+}
+
+.products__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.products__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.products__link {
+    display: inline-block;
+    padding: 4px 17px 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    color: #000000;
+    background-color: #ebebeb;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 240ms linear;
+}
+
+
+.products__link:hover {
+    background-color: #76a713;
+    color: #ffffff;
+}
+
+.products__link:active {
+    transform: scale(1.1);
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.products__link--active {
+    background-color: #76a713;
+    color: #ffffff;
+}
+
+.products__link--food {
+    padding: 4px 18px 5px 19px;
+}
+
+.products__link--organic {
+    padding: 4px 14px 5px;
+}
+
+.products__link--fruit {
+    padding: 4px 17px 5px 18px;
+}
+
+.products__link--health {
+    padding: 4px 13px 5px 14px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    box-shadow: 0 20px 50px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .img-wrapper {
+    box-shadow: 0px 0px 0px 2px #76a713 inset;
+}
+
+.card:hover .card__btn-wrapper {
+    visibility: visible;
+}
+
+.img-wrapper {
+    padding: 70px 39px 0 39px;
+
+    border: {
+        top: 1px solid #dddddd;
+        right: 1px solid #dddddd;
+        left: 1px solid #dddddd;
+        bottom: none;
+    }
+}
+
+.card__btn-wrapper {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+    visibility: hidden;
+    transition: all 280ms linear;
+}
+
+.card__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 280ms ease;
+
+    &:hover {
+        background-color: #76a713;
+    }
+
+    &:active {
+        background-color: rgba(118, 167, 19, 0.6);
+    }
+}
+
+.avacado__img-wrapper {
+    padding: 81px 62px 0 62px;
+}
+
+.kiwi__img-wrapper {
+    padding: 32px 42px 0 43px
+}
+
+.lemon__img-wrapper {
+    padding: 88px 45px 0;
+}
+
+.onion__img-wrapper {
+    padding: 74px 101px 0;
+}
+
+.almond__img-wrapper {
+    padding: 25px 40px 0;
+}
+
+.card__img {
+    margin-bottom: 71px;
+    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.15));
+}
+
+.card__avacado__img {
+    margin-bottom: 77px;
+}
+
+.card__kiwi__img {
+    margin-bottom: 25px;
+}
+
+.lemon__img {
+    margin-bottom: 89px;
+}
+
+.onion__img {
+    margin-bottom: 76px;
+}
+
+.almond__img {
+    margin-bottom: 25px;
+}
+
+.card__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    margin-top: -2px;
+}
+
+.card__inner__heading {
+    margin-top: 21px;
+    margin-bottom: 9px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+
+.card__inner__price {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #76a713;
+}
+
+.card__inner__del {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #aaaaaa;
+}
+
+.card__inner__img {
+    margin-bottom: 30px;
+}
+
+.card__inner-wrapper {
+    display: flex;
+    margin-bottom: 30px;
+
+    .card__inner__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14px;
+        height: 13px;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .card__inner__btn:active {
+        background: {
+            image: url('./../img/star.svg');
+            repeat: no-repeat;
+            size: auto;
+        }
+    }
+}
+
+
+.card__link {
+    margin-bottom: 30px;
+}
+
+/* Box section ends */

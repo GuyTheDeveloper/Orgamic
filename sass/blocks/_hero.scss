@@ -1,0 +1,105 @@
+.hero {
+    background-color: rgba(118, 167, 19, 0.31);
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-btn {
+    position: absolute;
+    top: 299px;
+    left: -47px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #76a713;
+    border: none;
+    transition: all 230ms linear;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: rgb(102, 139, 0);
+}
+
+.hero-btn:active {
+    background-color: green;
+}
+
+.inner-hero {
+    padding-top: 82px;
+    padding-bottom: 201px;
+    background-image: url('./../img/tomato.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right 99px;
+}
+
+
+.inner-hero__heading {
+    max-width: 473px;
+    margin: 0;
+    margin-bottom: 28px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 119px;
+    text-transform: uppercase;
+}
+
+.inner-hero__span {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 74px;
+    color: #76a713;
+}
+
+.main-link {
+    display: inline-block;
+    padding: 14px 36px 15px 37px;
+    margin: 0;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid transparent;
+    background-color: #76a713;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 240ms linear;
+}
+
+.main-link:hover {
+    background-color: #ffffff;
+    color: #76a713;
+    border-color: #76a713;
+}
+
+.main-link:active {
+    background-color: rgba(118, 167, 19, 0.5);
+    color: #ffffff;
+}
+
+.hero-button {
+    position: absolute;
+    right: -9px;
+    bottom: 356px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border: 1px solid #76A713;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 240ms linear;
+}
+
+.hero-button:hover {
+    background-color: rgba(118, 167, 19, 0.31);
+}
+
+.hero-button:active {
+    background-color: transparent;
+}
